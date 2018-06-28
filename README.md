@@ -5,7 +5,7 @@ I use it for sync my playlist with my android. On android you should share any f
 I use [Pocketshare](https://play.google.com/store/apps/details?id=info.appcube.pocketshare) for remote sync.
 
 You can add environment variables:
-* `ITUNES_LIB_PATH` - if your itunes library locates not in default folder.
-* `SYNC_FOLDER` - folder on target where playlist will be saved. If not set you can point manually.
+* `ITUNES_LIB_PATH` - if your itunes library does not in default folder.
+* `SYNC_FOLDER` - target folder where playlist will be saved. If not set you can point manually.
 
 Script will copy all songs from selected playlists if they not exists and will create or rewrite playlist file in `m3u8` format.
